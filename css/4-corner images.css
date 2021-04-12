@@ -1,0 +1,16 @@
+#bg{
+    /* background-color: grey;  applying the background colour */
+
+    background-image: url("../images/left top.png"), url("../images/right bottom.png");/* repeats the background image if small*/
+
+    /*background-repeat: repeat-x; repeat only along x axis*/
+    background-repeat: no-repeat;
+
+    background-position: left top, right bottom; /* setting posttion of the background*/
+    /*background-position: 50px 100px;*/ /* usign pixels to place the bg*/
+    /*background-position: 10% 50%;*/ /* fill by percent of the container*/
+
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;*/   /* making teh background fixed and making the text move */
+                                    /* by default scroll i.e. moves the image along with the scroll*/
+}

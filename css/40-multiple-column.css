@@ -1,0 +1,10 @@
+div{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid red;
+    column-width: 300px;
+}
+
+h1{
+    column-span: all;
+}

@@ -1,0 +1,39 @@
+h2:hover {
+  background-color: red;
+}
+
+.title:hover {
+  background-color: blue;
+}
+
+#test-site:hover {
+    background-color: yellow;
+  }
+
+#welcome {
+  color: green;
+}
+
+li:first-child {
+  color: tomato;
+}
+
+li:nth-child(2) {
+    color: skyblue;
+}
+
+li:last-child {
+  color: orange;
+}
+
+li:only-child{
+    color: purple;
+}
+
+#google:link{ /* style before clicking the the link */
+    color: blue;
+}
+
+#google:visited{ /* style after clicking the link */
+    color: red;
+}

@@ -1,0 +1,14 @@
+#border {
+  /*border-style: solid;  top right bottom left (clockwise rotation)
+
+  border-width: 3px 2px;
+  border-color: red;*/
+
+  border: 3px solid green; /*short cut width type color*/
+  border-radius: 3px 10px;/* also can give percent of width
+
+  /* styling any one side of the border specifically
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: red;*/
+}

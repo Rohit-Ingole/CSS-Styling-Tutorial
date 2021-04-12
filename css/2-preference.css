@@ -1,0 +1,10 @@
+h2{
+    color: red;
+}
+.title{
+    color: blue;
+}
+#welcome{
+    color: green;
+}
+/* inline > id > class > tag*/

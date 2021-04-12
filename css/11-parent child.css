@@ -1,0 +1,12 @@
+html {
+  font-size: 12px;
+}
+
+#parent {
+  font-size: 10vw;
+}
+
+#child {
+  font-size: 2rem; /* en multiplies the specified number to the size of parent */
+  /* ren multiplies the specified number to the size of html tag */
+}

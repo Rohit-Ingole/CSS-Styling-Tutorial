@@ -1,0 +1,17 @@
+p::first-line{
+    color: red;
+    font-size: 35px;
+}
+h1::before{
+    content: url("../images/arrow.png");
+}
+
+/* adding content using css */
+h1::after{
+    content: " added after";
+}
+
+::selection{
+    color: red;
+    background-color: yellow;
+}

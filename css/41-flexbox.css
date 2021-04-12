@@ -1,0 +1,47 @@
+.flex-container{
+    background-color: indianred;
+    display: flex; /* making the display and its childs flexible */
+    height: 400px;
+
+
+    
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */ 
+
+    /*flex-flow: row wrap;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;*/
+
+    /* align-content: flex-start; */
+
+    /* NOTE: justify-content works horizontally where as align content works vertically */
+
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    /* display: inline-block; */ 
+    width: 100px;
+    text-align: center;
+}
+
+#one{
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    align-self: flex-start;
+}
+
+#two{
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+    align-self: center;
+}
+
+#three{
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}

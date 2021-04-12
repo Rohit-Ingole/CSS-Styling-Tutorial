@@ -1,0 +1,57 @@
+/* key frame for animation */
+@keyframes changecolor {
+  0% {
+    background-color: red;
+    border-radius: 0%;
+  }
+  10% {
+    background-color: yellow;
+    border-radius: 10%;
+  }
+  20% {
+    background-color: green;
+    border-radius: 20%;
+  }
+  30% {
+    background-color: orange;
+    border-radius: 30%;
+  }
+  40% {
+    background-color: red;
+    border-radius: 40%;
+  }
+  50% {
+    background-color: olive;
+    border-radius: 50%;
+  }
+  60% {
+    background-color: orange;
+    border-radius: 40%;
+  }
+  70% {
+    background-color: green;
+    border-radius: 30%;
+  }
+  80% {
+    background-color: blue;
+    border-radius: 20%;
+  }
+  90% {
+    background-color: yellow;
+    border-radius: 10%;
+  }
+  100% {
+    background-color: red;
+    border-radius: 0%;
+  }
+}
+
+#animate1 {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  animation-name: changecolor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; /* looping the animation */
+  animation-timing-function: linear;
+}

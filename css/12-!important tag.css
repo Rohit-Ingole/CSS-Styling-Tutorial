@@ -1,0 +1,7 @@
+div{
+    border: 1px solid red !important;/* Use of !important not recommended */
+}
+
+div{
+    border: 1px solid green;
+}

@@ -1,0 +1,49 @@
+@font-face{
+    font-family: abc1;
+    src: url("../fonts/AkayaTelivigala-Regular.ttf")
+}
+@font-face{
+    font-family: abc2;
+    src: url("../fonts/Stick-Regular.ttf")
+}
+@font-face{
+    font-family: abc3;
+    src: url("../fonts/RocknRollOne-Regular.ttf")
+}
+
+caption {
+  border: 3px solid black;
+  border-collapse: separate;
+  border-spacing: 10px;
+  font-family: abc2, sans-serif;
+  font-size: 30px;
+  caption-side: top;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+  border-collapse: separate;
+  border-spacing: 10px;
+  empty-cells: hide; /* hides the empty cell */
+  table-layout: auto;
+}
+
+th {
+  height: 25px;
+  width: 70px;
+  border: 3px solid black;
+  padding: 5px;
+  text-align: center;
+  font-family: abc3, sans-serif;
+  font-size: 20px;
+}
+
+td {
+  height: 20px;
+  border: 3px solid black;
+  padding: 5px;
+  text-align: left;
+  font-family: abc1, cursive;
+  font-size: 22px;
+}

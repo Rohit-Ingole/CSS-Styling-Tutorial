@@ -1,0 +1,29 @@
+h1{
+    font-size: 30px;
+    /* font-weight: normal;*/  /* font-weight:  is the thickness of the the letterrs */
+
+}
+
+/* also <i></i> tag and <b></b> tags can be used to bold and italicise a specific word in a paragraph. */
+#p1{
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    font-family: 'Stick', sans-serif;
+}
+
+#p2{
+    font-size: 20px;
+    /* .ttf, .otf, .woff format of font file mostly used */
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+@font-face{
+    font-family: abc;
+    src: url("../fonts/AkayaTelivigala-Regular.ttf")
+}
+#p3{
+    font-size: 20px;
+    font-family: abc;
+}

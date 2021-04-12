@@ -1,0 +1,15 @@
+#green{
+    color: green;
+}
+
+#blue{
+    color: red;
+}
+
+#initial{
+    color: initial; /* because initial appllies default color */
+}
+
+#inherit{
+    color: inherit; /* inherits the color from the parent tag */
+}

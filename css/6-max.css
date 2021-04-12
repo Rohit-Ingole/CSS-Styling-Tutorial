@@ -1,0 +1,16 @@
+body{
+    border: 1px solid red;
+    height: 500px;
+}
+
+#div1{
+    background-color: purple;
+    width: auto;
+    height: auto;
+  
+    max-width: 1200px;
+    max-height: 400;
+
+    min-width: 1000px;
+    min-height: 300px;
+}

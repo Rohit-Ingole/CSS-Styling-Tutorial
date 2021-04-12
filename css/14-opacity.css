@@ -1,0 +1,14 @@
+#box1{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+    /* opacity: 0.5; */ /* 0 fully transperent 1 for no transperency */
+}
+
+#box2{
+    background-color: red;
+    height: 300px;
+    width: 200px;
+    margin-top: -100px;
+    opacity: 0.5;
+}

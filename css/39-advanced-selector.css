@@ -1,0 +1,59 @@
+/* element selector */
+li{
+    color: red;
+}
+
+/* id selector */
+#list2{
+    color: green;
+}
+
+/* class selector */
+.list5{
+    color: blue;
+}
+
+/* psuedo class */
+a:hover{
+    color: cadetblue;
+}
+
+/* psuedo element */
+p::first-line{
+    color: cornflowerblue;
+}
+
+/* attribute selector */
+a[href="https://www.google.com/"]{
+    color:darkgoldenrod;
+}
+
+/* universal selector -> rarely used. mostly used only for debugging. */
+/* *{
+    border: 1px solid red;
+} */
+
+/* child selector (styles all <a> </a> tags under specified container */
+div a{
+    color:blueviolet;
+}
+
+/* direct child selector */
+div>a{
+    color: chartreuse; /* as a tags are not direct child of div -> not coloured */
+}
+
+/* just sibling selector */
+div + a{
+    color: orange;
+}
+
+/* normal sibling */
+div ~ a{
+    color:skyblue;
+}
+
+/* and selector */
+h1, p {
+    color: rgb(121, 250, 82);
+}

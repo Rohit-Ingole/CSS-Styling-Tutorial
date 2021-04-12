@@ -1,0 +1,39 @@
+/* key frame for animation */
+@keyframes changecolor {
+  0% {
+    background-color: red;
+  }
+  25% {
+    width: 300px;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: red;
+    width: 200px;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+#animate1 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  animation-name: changecolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; /* looping the animation */
+  animation-timing-function: ease;
+}
+
+#animate2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; /* looping the animation */
+    animation-timing-function: ease-in-out;
+  }

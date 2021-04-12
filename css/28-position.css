@@ -1,0 +1,50 @@
+/* types of position :-
+    1. static (default) -normal flow   e.g. palcement of divs one below other
+    2. relative - moves according to currrent position
+    3. fixed
+    4. absolute - relative to positioned(other than static) parent.
+*/
+
+/*  1. top
+    2. bottom
+    3. left
+    4. right
+
+    these properties will work for 2 -4 positions. mentioned above. these will not work for static.
+*/
+
+body{
+    height: 1000px;
+}
+
+#parent{
+    border : 1px solid red;
+    padding: 20px;
+    width:50%;
+    margin: 100px;
+    position: relative;
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}

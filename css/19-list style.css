@@ -1,0 +1,9 @@
+ul{
+    /* list-style-type: square; */
+    list-style-image: url("../images/arrow.png");
+    list-style-position: inside; /* bringing the image inside the box */
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+}

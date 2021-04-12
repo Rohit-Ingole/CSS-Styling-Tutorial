@@ -1,0 +1,32 @@
+/*  block :- Takes complete width.
+    e.g. div, p, h1 - h6, form have default display property set to block.
+
+    properties:
+        1. new line
+        2. full width (100% width)
+        3. height and weidth
+
+
+    inline :- Takes only required length.
+    e.g. a, img, span have default diaplay property as inline.
+
+    properties:
+        1. not new start 
+        2. necessary width
+        3. height and width cannot be applied
+
+    inline-block: it is same as inline but accepts height and width like block does.
+    none 
+*/
+
+.display{
+    border: 2px solid red;
+    height: 100px;
+    width: 49%;
+    display: inline-block;
+}
+
+#div1{
+    /* display: none; */ /* removes the element from the display */
+    visibility: hidden; /* it is present but hidden */
+}

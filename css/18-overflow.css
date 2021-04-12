@@ -1,0 +1,15 @@
+#overflow {
+  height: 300px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: 1px solid red;
+  overflow: auto;
+  padding: 10px 20px;
+  resize: vertical;
+}
+
+#resize{
+    height: 100px;
+    width: 500px;
+    resize: none;
+}

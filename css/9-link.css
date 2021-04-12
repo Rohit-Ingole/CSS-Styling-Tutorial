@@ -1,0 +1,25 @@
+#link{
+    font-size: 40px;
+    text-decoration: none;
+}
+/* fixed order 
+:link
+:visited
+:hover
+:active
+*/
+#link:link{
+    color: yellowgreen;
+}
+
+#link:visited{
+    color: black;
+}
+
+#link:hover{
+    color: orange;
+}
+
+#link:active{
+    color: red;
+}   

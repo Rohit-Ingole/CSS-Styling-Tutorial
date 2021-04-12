@@ -1,0 +1,17 @@
+/* Add Padding between the border and content */
+
+.div1{
+    border: 1px solid red;
+    padding: 25px;
+}
+
+/* Adding Margins - */
+#margin{
+    width: 200px;
+    margin: 20px auto; /* brings the thing in center */
+}
+
+body{
+    border: 3px dotted black;
+    padding: 25px;
+}

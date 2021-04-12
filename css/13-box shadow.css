@@ -1,0 +1,10 @@
+div{
+    border: 1px solid green;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 3px grey, -10px -10px 5px 3px red; /* here 3px is spread radius and 5px is blur */
+}

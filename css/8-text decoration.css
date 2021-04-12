@@ -1,0 +1,25 @@
+#text {
+  width: 500px;
+  border: 1px solid black;
+  height: 300px;
+  /*text-decoration: line-through;*/
+  text-transform: capitalize;
+  /* line-height: 30px; */ /* distance between lines*/
+  /* text-indent: 50px; */
+  /* letter-spacing: 5px; */ /* distance between each letter*/
+  /* word-spacing: 10px; */
+  white-space: normal;
+  text-shadow: black;
+}
+
+#shadow {
+  font-size: 50px;
+  text-shadow: 5px 10px 5px chartreuse;/* horizontal vertical blur color */
+
+}
+
+#text2{
+    width: 500px;
+    border:1px solid black;
+    writing-mode: vertical-rl;
+}
